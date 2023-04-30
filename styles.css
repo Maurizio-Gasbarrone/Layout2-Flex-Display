@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border: 4px solid black;
+  padding: 24px 24px 0 24px;
+  /* display: flex; */
+  /* justify-content: center; */
+
+}
+
+/* We are going to be using this combination of .container{} and    */
+/* .row{} alot. Basically the container is the parent of everything */
+/* and the row is what caps the size.                               */
+
+.row{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;     /* Center contents middle of page as you resize*/
+}
+
+.title {
+  border: 2px solid lightgray;
+  width: 100%;
+  height: 24px;
+  margin-bottom: 24px;
+}
+
+.box {
+  border: 4px solid lightgray;
+  width: 30%;
+  height: 100px;
+  margin-bottom: 24px;
+}
+
+.box-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
